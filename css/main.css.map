@@ -6,7 +6,8 @@
         "../sass/utils/_variables.scss",
         "../sass/utils/_mixin.scss",
         "../sass/utils/_base.scss",
-        "../sass/utils/_placeholder.scss"
+        "../sass/utils/_placeholder.scss",
+        "../sass/components/_pageHeade.scss"
     ],
     "names": [],
     "file": "main.css"
