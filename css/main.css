@@ -268,8 +268,8 @@ p {
           align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  -webkit-transition: background-color var(--duration) var(--timihg-function), color 250ms var(--timihg-function);
-  transition: background-color var(--duration) var(--timihg-function), color 250ms var(--timihg-function);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .banner-button:hover, .banner-button:focus {
@@ -1017,34 +1017,31 @@ p {
   fill: #ffffff;
 }
 
-/* кнопка banner */
-.banner-button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-bottom: 0px;
-  padding: 10px 32px;
-  min-width: 200px;
+/* кнопка footer */
+.footer-button {
   height: 50px;
+  width: 200px;
+  background: #2196f3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
-  background-color: #2196f3;
-  border: 0px;
-  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  font-family: Roboto;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  -webkit-transition: background-color var(--duration) var(--timihg-function), color 250ms var(--timihg-function);
-  transition: background-color var(--duration) var(--timihg-function), color 250ms var(--timihg-function);
-}
-
-.banner-button:hover,
-.banner-button:focus {
-  background-color: #188ce8;
+  color: #ffffff;
+  border-color: transparent;
 }
 
 .footer-basement {
