@@ -71,8 +71,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-site-nav:hover,
-.header-site-nav:focus {
+.header-site-nav:hover, .header-site-nav:focus {
   color: #2196f3;
 }
 
