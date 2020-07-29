@@ -65,8 +65,8 @@
   text-align: center;
   letter-spacing: 0.06em;
 
-  transition: background-color var(--duration) var(--timihg-function),
-    color 250ms var(--timihg-function);
+  transition: background-color $duration: $timihg-function:,
+    color $duration: $timihg-function:;
 
   &:hover,
   &:focus {
