@@ -1,0 +1,20 @@
+.header-logo {
+  color: #212121;
+
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+
+  transition: color var(--duration) var(--timihg-function);
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: #2196f3;
+}
+
+.header-logo-web {
+  color: #2196f3;
+}
