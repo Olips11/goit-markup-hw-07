@@ -42,15 +42,11 @@
   text-decoration: none;
 
   transition: color $duration $timihg-function;
-}
 
-.header-site-nav:hover,
-.header-site-nav:focus {
-  color: #2196f3;
-}
-
-.header-site-nav.current {
-  color: #2196f3;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 
 .header-site-nav.current::after {
