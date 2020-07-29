@@ -208,4 +208,72 @@ p {
   line-height: 1.19;
   text-decoration: none;
 }
+
+.section-banner {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../img/banner/Headerimg.svg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../img/banner/Headerimg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-banner .banner {
+  padding: 150px 15px;
+  text-align: center;
+}
+
+.banner-title {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* кнопка banner */
+.banner-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0px;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #2196f3;
+  border: 0px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  -webkit-transition: background-color var(--duration) var(--timihg-function), color 250ms var(--timihg-function);
+  transition: background-color var(--duration) var(--timihg-function), color 250ms var(--timihg-function);
+}
+
+.banner-button:hover, .banner-button:focus {
+  color: #2196f3;
+  background-color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
