@@ -2,6 +2,7 @@
 /* основной вторичный цвет текста #757575 */
 /* белый #FFFFFF */
 /* шапка #FFFFFF */
+/* акцент #2196F3 */
 /* тело #E5E5E5*/
 /* команда вторичный #F5F4FA */
 /* подвал #2F303A */
@@ -12,8 +13,10 @@
   --title-text-color-white: #ffffff;
   --primary-background-color: #ffffff;
   --accent-color: #2196f3;
+  --accent-color-white: #ffffff;
   --secondary-text-color: #757575;
   --timihg-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
 }
 
 .page {
@@ -74,7 +77,7 @@ p {
   line-height: 1.2;
   text-decoration: none;
 
-  transition: color 250ms var(--timihg-function);
+  transition: color var(--duration) var(--timihg-function);
 }
 
 .header-logo:hover,
@@ -122,7 +125,7 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  transition: color 250ms var(--timihg-function);
+  transition: color var(--duration) var(--timihg-function);
 }
 
 .header-site-nav:hover,
@@ -178,7 +181,7 @@ p {
   text-decoration: none;
   align-items: center;
 
-  transition: color 250ms var(--timihg-function);
+  transition: color var(--duration) var(--timihg-function);
 }
 
 .address-nav .link:hover,
@@ -192,7 +195,7 @@ p {
   margin-right: 10px;
   fill: currentColor;
 
-  transition: fill 250ms var(--timihg-function);
+  transition: fill var(--duration) var(--timihg-function);
 }
 
 .address-nav .link:hover .mail-icon-address,
@@ -206,7 +209,7 @@ p {
   margin-right: 10px;
   fill: currentColor;
 
-  transition: fill 250ms var(--timihg-function);
+  transition: fill var(--duration) var(--timihg-function);
 }
 
 .address-nav .link:hover .tel-icon-address,
@@ -346,7 +349,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
 
-  transition: background-color 250ms var(--timihg-function),
+  transition: background-color var(--duration) var(--timihg-function),
     color 250ms var(--timihg-function);
 }
 
@@ -586,7 +589,7 @@ p {
   border-radius: 50%;
   background-repeat: no-repeat;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--duration) var(--timihg-function);
 }
 
 .soc-list .items:not(:last-child) {
@@ -597,7 +600,7 @@ p {
   background-size: 20px;
   fill: #afb1b8;
 
-  transition: fill 250ms var(--timihg-function);
+  transition: fill var(--duration) var(--timihg-function);
 }
 
 .soc-list .social-icon:hover,
@@ -659,7 +662,7 @@ p {
   box-sizing: border-box;
   border-radius: 4px;
 
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border var(--duration) var(--timihg-function);
 }
 
 .customers-list .item:not(:last-child) {
@@ -669,7 +672,7 @@ p {
 .client-icon {
   fill: #afb1b8;
 
-  transition: fill 250ms var(--timihg-function);
+  transition: fill var(--duration) var(--timihg-function);
 }
 
 .customers-list .item a:hover,
@@ -764,7 +767,7 @@ p {
   background-repeat: no-repeat;
   background-color: rgba(80, 82, 97, 0.8);
 
-  transition: background-color 250ms var(--timihg-function);
+  transition: background-color var(--duration) var(--timihg-function);
 }
 
 .footer-icon {
@@ -917,8 +920,8 @@ p {
   line-height: 1.62;
   cursor: pointer;
 
-  transition: color 250ms var(--timihg-function),
-    background-color 250ms var(--timihg-function);
+  transition: color var(--duration) var(--timihg-function),
+    background-color var(--duration) var(--timihg-function);
 }
 
 .filter-button:hover,
@@ -1026,7 +1029,7 @@ p {
   /* opacity: 0; */
 
   transform: translateY(100%);
-  transition: transform 250ms var(--timihg-function);
+  transition: transform var(--duration) var(--timihg-function);
 }
 
 /* .projects-card:hover::before {
@@ -1062,7 +1065,7 @@ p {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.02em;
-  transition: opacity 250ms var(--timihg-function);
+  transition: opacity var(--duration) var(--timihg-function);
 }
 
 .portfolio-card:hover .projects-text {
@@ -1081,7 +1084,7 @@ p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms var(--timing-function);
+  transition: opacity var(--duration) var(--timing-function);
 }
 
 .backdrop.is-hidden {
@@ -1103,7 +1106,7 @@ p {
   max-width: 528px;
   border-radius: 4px;
   background-color: #ffffff;
-  transition: transform 250ms var(--timing-function);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .modal-title {
@@ -1166,7 +1169,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
-  transition: transform 250ms var(--timing-function);
+  transition: transform var(--duration) var(--timing-function);
 }
 
 .form-icon {
