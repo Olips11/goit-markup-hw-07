@@ -106,7 +106,7 @@
   margin-right: 10px;
   fill: currentColor;
 
-  transition: fill var(--duration) var(--timihg-function);
+  transition: fill $duration $timihg-function;
 }
 
 .address-nav .link:hover .mail-icon-address,
@@ -120,7 +120,7 @@
   margin-right: 10px;
   fill: currentColor;
 
-  transition: fill var(--duration) var(--timihg-function);
+  transition: fill $duration $timihg-function;
 }
 
 .address-nav .link:hover .tel-icon-address,

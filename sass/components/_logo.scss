@@ -7,12 +7,12 @@
   line-height: 1.2;
   text-decoration: none;
 
-  transition: color var(--duration) var(--timihg-function);
-}
+  transition: color $duration $timihg-function;
 
-.header-logo:hover,
-.header-logo:focus {
-  color: #2196f3;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .header-logo-web {

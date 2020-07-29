@@ -167,22 +167,7 @@ p {
   margin-right: 30px;
 }
 
-.link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  color: #757575;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  align-items: center;
-
-  transition: color var(--duration) var(--timihg-function);
-}
+3
 
 .address-nav .link:hover,
 .address-nav .link:focus {
